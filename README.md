@@ -16,64 +16,38 @@ What this Twitter bot does
 
 Example commands you can tweet at the bot account
 -------------------------------------------------
-@[bot account] capture @[target account]
-
-eg. @mytwitterbot capture @Google
-
-Begin storing tweets from @Google and checking for deleted ones
-
+**@[bot account] capture @[target account]**
+<br>`@mytwitterbot capture @Google`
+<br>*Begin storing tweets from @Google and checking for deleted ones*
 	
-@[bot account] uncapture @[target account]
+**@[bot account] uncapture @[target account]**
+<br>`@mytwitterbot uncapture @Google`
+<br>*Stop storing tweets from @Google*
 
-eg. @mytwitterbot uncapture @Google
+**@[bot account] refresh [number of seconds]**
+<br>`@mytwitterbot refresh 45`
+<br>*Sleep for 45 seconds after finishing the tasks, and then wake up and do it again!*
 
-Stop storing tweets from @Google
-
-
-@[bot account] refresh [number of seconds]
-
-eg. @mytwitterbot refresh 45
-
-Sleep for 45 seconds after finishing the tasks, and then wake up and do it again
-
-
-@[bot account] follow @[target account]
-
-eg. @mytwitterbot follow @Google
-
-Begin following the @Google account (this really does nothing but add the account to "Following")
-
+**@[bot account] follow @[target account]**
+<br>`@mytwitterbot follow @Google`
+<br>*Begin following the @Google account (this really does nothing but add the account to "Following")*
 	
-@[bot account] unfollow @[target account]
+**@[bot account] unfollow @[target account]**
+<br>`@mytwitterbot follow @Google`
+<br>*Unfollow the @Google account (this really does nothing but remove the account from "Following")*
 
-eg. @mytwitterbot follow @Google
-
-Unfollow the @Google account (this really does nothing but remove the account from "Following")
-
-
-@[bot account] tweet [message]
-
-eg. @mytwitterbot tweet @Google this is a message
-
-Send a tweet which mentions the @Google account
-
+**@[bot account] tweet [message]**
+<br>`@mytwitterbot tweet @Google this is a message`
+<br>*Send a tweet which mentions the @Google account*
 	
-@[bot account] DM @[target account] [message]
-
-eg. @mytwitterbot DM @Google this is a message
-
-Send a direct message to the @Google account
-
+**@[bot account] DM @[target account] [message]**
+<br>`@mytwitterbot DM @Google this is a message`
+<br>*Send a direct message to the @Google account*
 	
-@[bot account] deleted [email address]
+**@[bot account] deleted [email address]**
+<br>`@mytwitterbot deleted myemail@gmail.com`
+<br>*Send a list of the deleted tweets captured so far to myemail@gmail.com*
 
-eg. @mytwitterbot deleted myemail@gmail.com
-
-Send a list of the deleted tweets captured so far to myemail@gmail.com
-
-
-@[bot account] az5
-
-eg. @mytwitterbot az5
-
-Destroy all data!
+**@[bot account] az5**
+<br>`@mytwitterbot az5`
+<br>*Destroy all data!*
