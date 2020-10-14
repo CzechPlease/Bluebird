@@ -1,0 +1,29 @@
+<style>
+	body_normal {background-color: 444466;}
+	logging_important {color: AA0000; font-weight: bold}
+	logging_normal {color: 000000;}
+	logging_redundant {color: 666666}
+	logging_warning {color: FF4500;}
+	mention_normal {color: 0000DD; font-weight: bold}
+	mention_id_normal {color: 0000DD; font-weight: bold}
+	my_screen_name {color: 0000DD; font-weight: bold}
+	table {
+			font-family: arial, sans-serif;
+			border-collapse: collapse;
+			left: 5px;
+			width: 400px;
+			border: 3px solid #757575;
+			padding: 5px;
+	}
+	td {
+			border: 1px solid #999;
+			padding: 0.5rem;
+			text-align: left;
+	}
+	th {
+			border: 1px solid #999;
+			padding: 0.5rem;
+			text-align: left;
+			font-weight: bold;
+	}
+</style>
